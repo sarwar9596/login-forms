@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./form.css">
+    <title>Iquasar</title>
+</head>
+<body>
+<div class="outerbox">
+    <header>Iquasar Reg Form </header>
+    <form action="" method="post">
+        <input type="email" name="login-email" id="email" placeholder="Enter your Email" required >
+        <label for="login-email"></label>
+       <!-- ----------------------- -->
+        <input type="password" name="login-password" id="password" placeholder="Enter your Password" required minlength="8" pattern="" >
+        <label for="login-password"></label>
+        <!-- ----------------------- -->
+        <input type="radio" value="accept" name="terms" id="accept" checked>
+        <label for="terms"><i>Male</i></label>
+        <input type="radio" value="reject" name="terms" id="reject" checked>
+        <label for="terms"><i>Female</i></label>
+        <!-- ----------------------- -->
+         <input type="checkbox" name="terms" id="terms" value="yes">
+         <label for="terms"><strong>terms&conditions</strong></label>
+         <!-- ------------------------- -->
+         <select name="country" id="country">
+            <option value="india">India</option>
+            <option value="usa">USA</option>
+            <option value="canada">Canada</option>
+            <option value="australia">Australia</option>
+            <option value="uk">UK</option>
+        <!-- ------------------------------- -->
+        <input type="button" value="Submit" id="submit">
+    </form>
+</div>
+</body>
+</html>
