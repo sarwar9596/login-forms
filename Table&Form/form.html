@@ -10,7 +10,7 @@
 <div class="outerbox">
     <header>Iquasar Reg Form </header>
     <form action="" method="post">
-        <input type="email" name="login-email" id="email" placeholder="Enter your Email" required >
+        <input type="email" name="login-email" id="email" placeholder="Enter your Email" required autocomplete="@gmail.com" autofocus >
         <label for="login-email"></label>
        <!-- ----------------------- -->
         <input type="password" name="login-password" id="password" placeholder="Enter your Password" required minlength="8" pattern="" >
@@ -26,6 +26,9 @@
          <input type="checkbox" name="terms" id="terms" value="yes">
          <label for="terms"><strong>terms&conditions</strong></label>
          <!-- ------------------------- -->
+          <input type="hidden" name="hidden-field" value="hidden-value">
+            <label for="hidden-field">ADHAAR CARD DETA</label>
+          <!-- ----------------------- -->
          <select name="country" id="country">
             <option value="india">India</option>
             <option value="usa">USA</option>
