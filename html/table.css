@@ -1,0 +1,14 @@
+table{
+    width: 50%;
+    height: 50%;
+    border: .2em solid #010101;
+    background-color: rgba(195, 124, 31, 0.435);
+    margin: 10rem 0rem 0 10rem}
+th{
+    color: rgb(25, 0, 255);
+    font-size: 1rem;
+    font-weight: 600;
+}
+td{
+    text-align: center;
+}
